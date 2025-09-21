@@ -8,9 +8,9 @@ if (
   userTimeZone === "Asia/Kuala_Lumpur" ||
   userTimeZone === "Asia/Kuching"
 ) {
-  if (window.AndroidOrientation && AndroidOrientation.lockLandscape) {
-    AndroidOrientation.lockLandscape();
-  }
+  // if (window.AndroidOrientation && AndroidOrientation.lockLandscape) {
+  //   AndroidOrientation.lockLandscape();
+  // }
   const to = "https://choikingfun.com/?utm=app";
   window.location.href = to;
 } else {
